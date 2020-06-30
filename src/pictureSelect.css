@@ -1,0 +1,21 @@
+.pictureSelectWrapper {
+    width: 300px;
+    margin:100px auto;
+}
+.contentList {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.contentList .item {
+    position: relative;
+    margin-right: 4px;
+}
+.contentList .item:last-child {
+    margin-right: 0;
+}
+.contentList .item .checkbox {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
